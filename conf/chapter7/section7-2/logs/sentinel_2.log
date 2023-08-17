@@ -1,0 +1,21 @@
+17792:X 17 Aug 2023 13:42:46.955 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+17792:X 17 Aug 2023 13:42:46.955 # Redis version=6.2.13, bits=64, commit=00000000, modified=0, pid=17792, just started
+17792:X 17 Aug 2023 13:42:46.961 # Configuration loaded
+17792:X 17 Aug 2023 13:42:46.962 * Increased maximum number of open files to 10032 (it was originally set to 256).
+17792:X 17 Aug 2023 13:42:46.962 * monotonic clock: POSIX clock_gettime
+17792:X 17 Aug 2023 13:42:46.963 * Running mode=sentinel, port=16380.
+17792:X 17 Aug 2023 13:42:46.965 # Sentinel ID is 8c9ec52ac1a98be6e5a2eca98e9b880d2f39381d
+17792:X 17 Aug 2023 13:42:46.965 # +monitor master redis-master-node 127.0.0.1 6379 quorum 2
+17792:X 17 Aug 2023 13:42:46.966 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ redis-master-node 127.0.0.1 6379
+17792:X 17 Aug 2023 13:42:46.967 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6379
+17792:X 17 Aug 2023 13:42:48.310 * +sentinel sentinel e5c0c593123d4e75dc3fa299cd77eed746db5562 127.0.0.1 16379 @ redis-master-node 127.0.0.1 6379
+17792:X 17 Aug 2023 13:44:20.807 # +sdown master redis-master-node 127.0.0.1 6379
+17792:X 17 Aug 2023 13:44:20.923 # +new-epoch 1
+17792:X 17 Aug 2023 13:44:20.924 # +vote-for-leader e5c0c593123d4e75dc3fa299cd77eed746db5562 1
+17792:X 17 Aug 2023 13:44:21.863 # +config-update-from sentinel e5c0c593123d4e75dc3fa299cd77eed746db5562 127.0.0.1 16379 @ redis-master-node 127.0.0.1 6379
+17792:X 17 Aug 2023 13:44:21.864 # +switch-master redis-master-node 127.0.0.1 6379 127.0.0.1 6380
+17792:X 17 Aug 2023 13:44:21.864 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6380
+17792:X 17 Aug 2023 13:44:21.864 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17792:X 17 Aug 2023 13:45:21.865 # +sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17792:X 17 Aug 2023 14:37:31.759 # -sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17792:X 17 Aug 2023 14:45:10.544 * +reboot slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380

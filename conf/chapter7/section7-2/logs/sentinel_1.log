@@ -1,0 +1,36 @@
+17785:X 17 Aug 2023 13:42:44.264 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+17785:X 17 Aug 2023 13:42:44.264 # Redis version=6.2.13, bits=64, commit=00000000, modified=0, pid=17785, just started
+17785:X 17 Aug 2023 13:42:44.264 # Configuration loaded
+17785:X 17 Aug 2023 13:42:44.265 * Increased maximum number of open files to 10032 (it was originally set to 256).
+17785:X 17 Aug 2023 13:42:44.265 * monotonic clock: POSIX clock_gettime
+17785:X 17 Aug 2023 13:42:44.266 * Running mode=sentinel, port=16379.
+17785:X 17 Aug 2023 13:42:44.268 # Sentinel ID is e5c0c593123d4e75dc3fa299cd77eed746db5562
+17785:X 17 Aug 2023 13:42:44.269 # +monitor master redis-master-node 127.0.0.1 6379 quorum 2
+17785:X 17 Aug 2023 13:42:44.272 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:42:44.273 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:42:48.981 * +sentinel sentinel 8c9ec52ac1a98be6e5a2eca98e9b880d2f39381d 127.0.0.1 16380 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:20.854 # +sdown master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:20.915 # +odown master redis-master-node 127.0.0.1 6379 #quorum 2/2
+17785:X 17 Aug 2023 13:44:20.918 # +new-epoch 1
+17785:X 17 Aug 2023 13:44:20.918 # +try-failover master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:20.920 # +vote-for-leader e5c0c593123d4e75dc3fa299cd77eed746db5562 1
+17785:X 17 Aug 2023 13:44:20.925 # 8c9ec52ac1a98be6e5a2eca98e9b880d2f39381d voted for e5c0c593123d4e75dc3fa299cd77eed746db5562 1
+17785:X 17 Aug 2023 13:44:21.004 # +elected-leader master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.004 # +failover-state-select-slave master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.073 # +selected-slave slave 127.0.0.1:6380 127.0.0.1 6380 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.073 * +failover-state-send-slaveof-noone slave 127.0.0.1:6380 127.0.0.1 6380 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.134 * +failover-state-wait-promotion slave 127.0.0.1:6380 127.0.0.1 6380 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.804 # +promoted-slave slave 127.0.0.1:6380 127.0.0.1 6380 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.804 # +failover-state-reconf-slaves master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:21.863 * +slave-reconf-sent slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:22.011 # -odown master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:22.854 * +slave-reconf-inprog slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:22.855 * +slave-reconf-done slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:22.937 # +failover-end master redis-master-node 127.0.0.1 6379
+17785:X 17 Aug 2023 13:44:22.938 # +switch-master redis-master-node 127.0.0.1 6379 127.0.0.1 6380
+17785:X 17 Aug 2023 13:44:22.939 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ redis-master-node 127.0.0.1 6380
+17785:X 17 Aug 2023 13:44:22.940 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17785:X 17 Aug 2023 13:45:22.980 # +sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17785:X 17 Aug 2023 14:37:31.849 # -sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17785:X 17 Aug 2023 14:37:41.762 * +convert-to-slave slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
+17785:X 17 Aug 2023 14:45:10.230 * +reboot slave 127.0.0.1:6379 127.0.0.1 6379 @ redis-master-node 127.0.0.1 6380
