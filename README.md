@@ -1,5 +1,13 @@
 # 说明
 
+**Github地址(欢迎star): [RedisOnDocker](https://github.com/step-by-step-wiki/RedisOnDocker)**
+
+**Gitbook在线版: [为你自己学Redis](https://redis.step-by-step.wiki)**
+
+**另外还有一本Gitbook, 是Go的学习, [为你自己学Go](https://go.step-by-step.wiki), 欢迎学习和star🌟**
+
+# Highlights
+
 代码在[code](code)目录下
 
 文章按章节如下：
