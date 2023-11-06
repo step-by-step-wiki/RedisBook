@@ -64,3 +64,7 @@
 ## 第9章 Redis应用场景与案例实现
 - [9.1 Redis消息队列实战](../第9章%20Redis应用场景与案例实现/9.1%20Redis消息队列实战.md)
 - [9.2 Go实战Redis分布式锁](../第9章%20Redis应用场景与案例实现/9.2%20Go实战Redis分布式锁.md)
+
+# About me
+**Url**: [https://sai.show/about](https://sai.show/about)
+
