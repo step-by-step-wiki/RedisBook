@@ -1,10 +1,13 @@
 # 说明
 
-**Github地址(欢迎star): [RedisOnDocker](https://github.com/step-by-step-wiki/RedisOnDocker)**
+**Github地址(欢迎star): [RedisBook](https://github.com/step-by-step-wiki/RedisBook)**
 
-**Gitbook在线版: [为你自己学Redis](https://redis.step-by-step.wiki)**
+**Gitbook在线版: [为你自己学Redis](https://redis.sai.show)**
 
-**另外还有一本Gitbook, 是Go的学习, [为你自己学Go](https://go.step-by-step.wiki), 欢迎学习和star🌟**
+**另外还有一本Gitbook, 是Go的学习, [为你自己学Go](https://go.sai.show), 欢迎学习和star🌟**
+
+# About me
+**Url**: **[https://sai.show/about](https://sai.show/about)**
 
 # Highlights
 
@@ -65,6 +68,4 @@
 - [9.1 Redis消息队列实战](../第9章%20Redis应用场景与案例实现/9.1%20Redis消息队列实战.md)
 - [9.2 Go实战Redis分布式锁](../第9章%20Redis应用场景与案例实现/9.2%20Go实战Redis分布式锁.md)
 
-# About me
-**Url**: [https://sai.show/about](https://sai.show/about)
 
